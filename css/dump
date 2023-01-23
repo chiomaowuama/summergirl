@@ -1,0 +1,81 @@
+
+nav .annimation{
+    position: absolute;
+    height:100%;
+    /* top:0; */
+    Z-index:0;
+    transition:all .5s ease 0s;
+    border-radius:8px;
+}
+a:nth-child(1){
+    width:100px;
+  
+}
+a:nth-child(2){
+    width:110px;
+}
+a:nth-child(3){
+    width:100px;
+}
+a:nth-child(4){
+    width:160px;
+}
+a:nth-child(5){
+    width:120px;
+}
+nav .start-home,a:nth-child(1):hover.annimation{
+    width:100px;
+    left:0;
+    background-color: yellow;
+}
+nav .start-Product, a:nth-child(2):hover~.annimation{
+    width:110px;
+    left:100px;
+    background-color: rgba(204, 87, 29, 0.66);
+}
+nav.start-Aboutus, a:nth-child(3):hover~.annimation{
+    width:100px;
+    left:210px;
+    background-color: rgba(223, 89, 21, 0.66);
+}
+nav .start-Search, a:nth-child(4):hover~.annimation{
+    width:160px;
+    left:310px;
+    background-color: rgba(224, 90, 22, 0.66);
+}
+nav .start-Cart, a:nth-child(5):hover~.annimation{
+    width:120px;
+    left:470px;
+    background-color: rgba(230, 94, 26, 0.66);
+}
+span{
+    color: rgba(230, 94, 26, 0.66)''
+}
+
+
+nav{
+    /* margin:27px auto 0; */
+    position:relative;
+    width:590px;
+    height:50px;
+    background-color: rgba(143, 51, 5, 0.897);
+    border-radius: 8px;
+    font-size: 0;
+  
+    
+
+}
+nav a{
+    line-height: 50px;
+    height:100%;
+    font-size: 15px;
+    display:inline-block;
+    /* position:relative; */
+    /* z-index:1; */
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor:pointer;
+  
+}
